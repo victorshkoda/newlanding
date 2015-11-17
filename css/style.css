@@ -1,0 +1,264 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+/* --------------------------default-settings------------------------- */
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ol,ul,li{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+button{cursor: pointer; border: none;}
+
+/* --------------------------user-settings------------------------- */
+body{width:100%;font-size:14px;color:#333;line-height:1;background:#fff;position:relative;}
+.clear {clear: both;height: 0;}
+/* all */
+::-webkit-input-placeholder { color: #777; font-size: 16px;font-family: 'PT Sans', sans-serif;}
+::-moz-placeholder { color: #777; font-size: 16px;} /* firefox 19+ */
+:-ms-input-placeholder { color: #777; font-size: 16px;} /* ie */
+input:-moz-placeholder { color: #777; font-size: 16px;}
+input:focus, textarea:focus {outline:none;}
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+/* --------------------------end-default-settings------------------------- */
+/* --------------------------HEADER------------------------- */
+#header{
+	width: 100%;
+	height: 1px;
+	background: url('../images/header.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+
+/* --------------------------END HEADER------------------------- */
+/*--------------------NAVIGATION---------------*/
+.top_menu{
+	position: relative;
+	background: #eee;
+	height: 48px;
+	min-width: 1000px;
+	padding: 10px 0;
+	overflow: hidden;
+	z-index: 10;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.top_menu ul li.helper {
+	width: 100%;
+	height: 0;
+	visibility: hidden;
+}
+.top_menu.fixed{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+.top_menu ul{
+	position: relative;
+	text-align: justify;
+}
+.top_menu ul li{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 26px;
+	text-align: left;
+}
+.top_menu ul li a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+}
+.top_menu ul li a:hover, .top_menu ul li a.active{
+	text-decoration: underline;
+}
+/* --------------------------END NAVIGATION------------------------- */
+/* --------------------------BLOCK TEMPLATE------------------------- */
+#block{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK TEMPLATE------------------------- */
+/* --------------------------BLOCK 1------------------------- */
+#block1{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block1.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 1------------------------- */
+/* --------------------------BLOCK 2------------------------- */
+#block2{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block2.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 2------------------------- */
+/* --------------------------BLOCK 3------------------------- */
+#block3{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block3.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 2------------------------- */
+/* --------------------------BLOCK 4------------------------- */
+#block4{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block4.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 4------------------------- */
+/* --------------------------BLOCK 5------------------------- */
+#block5{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block5.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 5------------------------- */
+/* --------------------------BLOCK 6------------------------- */
+#block6{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block6.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 6------------------------- */
+/* --------------------------BLOCK 7------------------------- */
+#block7{
+	width: 100%;
+	height: 1px;
+	background: url('../images/block7.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END BLOCK 7------------------------- */
+/* --------------------------FOOTER------------------------- */
+#footer{
+	width: 100%;
+	height: 1px;
+	background: url('../images/footer.jpg') 0 0 no-repeat;
+	background-position: center center;
+}
+/* --------------------------END FOOTER------------------------- */
+/* --------------------------POPUP------------------------- */
+.popup__overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    text-align: center
+    }
+.popup__overlay:after{
+        display: inline-block;
+        height: 100%;
+        width: 0;
+        vertical-align: middle;
+        content: ''
+    }
+.popup{
+    display: inline-block;
+    position: relative;
+    max-width: 75%;
+    padding: 33px 1px;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 2px 2px rgba(0,0,0,.4);
+    vertical-align: middle;
+        z-index: 10000;
+        background-color: #c87f33;
+
+}
+.popupn{padding: 33px 19px;}
+
+.popup-form__row {
+    margin: 1em 0
+    }
+.popup__close {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    padding: 8px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 2px 2px 2px rgba(0,0,0,.4),
+                              0 3px 3px     rgba(0,0,0,.4);
+    box-shadow:         inset 0 2px 2px 2px rgba(0,0,0,.4),
+                              0 3px 3px     rgba(0,0,0,.4);
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #444;
+    text-decoration: none;
+    font-weight: bold
+    }
+.popup__close:hover {
+        background: #ddd
+        }
+
+#popup_form{
+    width: 415px;
+}
+#popup_form h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 80px;
+    line-height: 1;
+}
+.popup p{
+    font-size:18px;
+    line-height: 1.5;
+    padding:14px 1px 45px 1px;
+    color: #626161;
+}
+#popup_form p{
+    font-size: 18px;
+    padding: 1px 0 7px;
+}
+#popup_form input[type="text"], #popup_form input[type="tel"], #popup_form input[type="email"]{
+    width: 304px;
+    height: 35px;
+    margin: 7px 0;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#popup_form input[type="submit"]{
+    width: 209px;
+    height: 41px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin: 7px 0;
+    cursor: pointer;
+    color: #fff; 
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+
+}
+#popup_form input[type="submit"]:hover{
+    border: 2px solid #555;
+}
+/* --------------------------END POPUP------------------------- */
