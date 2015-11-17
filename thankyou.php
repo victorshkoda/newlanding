@@ -13,7 +13,7 @@ session_start();
 	
 	<link rel="stylesheet" href="css/jquery.fancybox.css" />
 	<link rel="stylesheet" href="css/style.css">
-	<title>isfr</title>
+	<title></title>
 
 </head>
 <body>
