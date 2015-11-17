@@ -1,24 +1,6 @@
 <? 
 session_start(); 
-$_SESSION['sitename']='Laminal JKT';
-if(isset($_REQUEST['utm_source']))$_SESSION['utm_source']=$_REQUEST['utm_source']; 
-if(isset($_REQUEST['utm_medium']) )$_SESSION['utm_medium']=$_REQUEST['utm_medium']; 
-if(isset($_REQUEST['utm_campaign']) )$_SESSION['utm_campaign']=$_REQUEST['utm_campaign']; 
-if(isset($_REQUEST['utm_term']) )$_SESSION['utm_term']=$_REQUEST['utm_term'];
-if(isset($_REQUEST['utm_content']) )$_SESSION['utm_content']=$_REQUEST['utm_content'];
-if(isset($_SERVER['HTTP_REFERER']))$referer=$_SERVER['HTTP_REFERER']; 
-
-if (isset($crawler)) { 
-    $phrase=urldecode($referer); 
-    eregi($search. '([^&]*)', $phrase. '&', $phrase2);
-    $phrase=$phrase2[1];
- }else{
-    $crawler='нет';
- } 
-if(!isset($phrase) || $phrase=='' ){
-    $phrase='нет' ;
-}
-$_SESSION['seo_path']='Сайт-источник:' . $crawler. ' <br/>Ключевая фраза:'.$phrase; 
+ 
 ?>
 <!doctype html>
 <html>
