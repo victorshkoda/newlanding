@@ -13,7 +13,7 @@ session_start();
 	
 	<link rel="stylesheet" href="css/jquery.fancybox.css" />
 	<link rel="stylesheet" href="css/style.css">
-	<title>thank</title>
+	<title>thankyou</title>
 
 </head>
 <body>
