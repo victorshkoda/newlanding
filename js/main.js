@@ -59,4 +59,31 @@ $(function(){
 	$('.popup__close').click(function() {
 		p.css('display', 'none');
 	});
+
+	//------------------   scroll animate   -------------------------------
+	
+	var ln = $('.blocks').children('.block').length;
+	var ob = $('.blocks').children('.block');
+	for (var i = ln; i >= 0; i--) {
+		$(ob[i]).addClass('animated blockhiden delayed'+i);
+		$('.delayed'+i).css({
+			'-webkit-animation-delay':  i*2/10+'s',
+			'-moz-animation-delay':  i*2/10+'s',
+			'animation-delay':  i*2/10+'s'
+		});
+	};
+	$('.blocks').waypoint(function  (dir) {
+		var bll = $(this.element).children();
+		if(dir == 'down')
+			bll.addClass('bounceIn blockvisible').removeClass('bounceOut');
+		else
+			bll.removeClass('bounceIn').addClass('bounceOut');
+	},{offset: '60%'});
+	$('.blocks').waypoint(function  (dir) {
+		var bll = $(this.element).children();
+		if(dir == 'down')
+			bll.addClass('bounceOut').removeClass('bounceIn');
+		else
+			bll.removeClass('bounceOut').addClass('bounceIn');
+	},{offset: '1%'});
 });

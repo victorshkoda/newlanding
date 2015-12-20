@@ -28,7 +28,8 @@ $_SESSION['seo_path']='Сайт-источник:' . $crawler. ' <br/>Ключе
 	<meta name="keywords" content=""  />
 	<meta name="viewport" content="width=device-width" />
 	
-	<link rel="stylesheet" href="css/jquery.fancybox.css" media="screen" />
+	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 	<title>new landind</title>
@@ -41,18 +42,20 @@ $_SESSION['seo_path']='Сайт-источник:' . $crawler. ' <br/>Ключе
 
 <!--                                         Top menu
 
-<div class="top_menu">
-	<ul>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li><a href="#" class="subNavBtn">Главная</a></li>
-		<li class="helper"></li>
-	</ul>
-</div> -->
+<div id="nav">
+ 	<div class="top_menu wrapper">
+ 		<ul>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li><a href="#" class="subNavBtn">Главная</a></li>
+ 			<li class="helper"></li>
+ 		</ul>
+ 	</div>
+ </div> -->
 	<div id="header">
 		<div class="wrapper header"></div>
 	</div>
@@ -103,8 +106,9 @@ $_SESSION['seo_path']='Сайт-источник:' . $crawler. ' <br/>Ключе
 		</div>
 	</div>
 
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/main.js"></script>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.fancybox.js" type="text/javascript"></script>
+<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
