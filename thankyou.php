@@ -22,7 +22,7 @@ session_start();
 			<div class="logo"></div>
 			<div class="headright">
 				<div class="headinfo">
-					<div class="headname">Международная школа скорочтения</div>
+					<div class="headname"></div>
 					<div class="headtel"><span>+7 (727)</span> 259 80 96</div>
 				</div>
 				
