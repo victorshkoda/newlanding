@@ -14,7 +14,7 @@ $(function(){
 
 	});
 
-	//------------------    menu scroll    -------------------------------
+	//------------------    menu scroll 1    -------------------------------
 
 	$('.top_menu li a.subNavBtn').on('click',function(){
 		$('html,body').animate({scrollTop:$($(this).attr('href')).offset().top-30},800);
